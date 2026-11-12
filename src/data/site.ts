@@ -14,7 +14,7 @@ const siteUrl = (import.meta.env.VITE_SITE_URL || DEFAULT_SITE_URL).replace(
 
 // Brand and navigation shared by the navbar and footer.
 export const site = {
-  name: "movewithhelen",
+  name: "movewith helen",
   url: siteUrl,
   tagline: "Find the home that fits the way you live.",
   description:

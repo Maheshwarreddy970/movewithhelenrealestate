@@ -12,8 +12,8 @@ function BrandLogo({ className }: { className?: string }) {
       aria-label={site.homeLabel}
       className={cn("inline-flex items-center gap-2 rounded-sm", className)}
     >
-      <LogoMark aria-hidden="true" className="size-8" />
-      <span className="text-lg font-semibold tracking-tight">{site.name}</span>
+      {/* <LogoMark aria-hidden="true" className="size-8" /> */}
+      <span className="text-lg font-semibold tracking-tight capitalize">{site.name}</span>
     </Link>
   );
 }

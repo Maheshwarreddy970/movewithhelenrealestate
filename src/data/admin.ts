@@ -26,7 +26,7 @@ export type AdminNavKey =
   "overview" | "properties" | "tours" | "messages" | "agents" | "activity";
 
 export const adminLayout = {
-  brand: "movewithhelen",
+  brand: "movewith helen",
   brandMeta: "Admin",
   navLabel: "Dashboard",
   nav: [
