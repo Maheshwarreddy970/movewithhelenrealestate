@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-import LogoMark from "@/components/logo-mark";
+// import LogoMark from "@/components/logo-mark";
 import { site } from "@/data/site";
 import { cn } from "@/lib/utils";
 

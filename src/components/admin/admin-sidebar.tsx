@@ -15,7 +15,7 @@ import type { HugeiconsIconProps } from "@hugeicons/react";
 import { NavLink } from "react-router";
 
 import Icon from "@/components/admin/icon";
-import LogoMark from "@/components/logo-mark";
+// import LogoMark from "@/components/logo-mark";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -96,7 +96,7 @@ function AdminSidebar({
       >
         {!collapsed && (
           <span className="flex items-center gap-2">
-            <LogoMark aria-hidden="true" className="size-6" />
+              {/* <LogoMark aria-hidden="true" className="size-6" /> */}
             <span className="font-semibold tracking-tight">{copy.brand}</span>
             <span className="admin-meta">{copy.brandMeta}</span>
           </span>

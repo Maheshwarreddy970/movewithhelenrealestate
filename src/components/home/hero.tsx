@@ -3,7 +3,7 @@ import { useId } from "react";
 
 import ButtonLink from "@/components/button-link";
 import HeroImage from "@/components/home/hero-image";
-import LogoMark from "@/components/logo-mark";
+// import LogoMark from "@/components/logo-mark";
 import { hero } from "@/data/hero";
 import { DURATION, EASE, STAGGER } from "@/lib/motion";
 
@@ -75,7 +75,7 @@ function Hero() {
           >
             <ButtonLink to={hero.primaryCta.to} className="w-full md:w-auto">
               {hero.primaryCta.label}
-              <LogoMark aria-hidden="true" data-icon="inline-end" />
+                {/* <LogoMark aria-hidden="true" data-icon="inline-end" /> */}
             </ButtonLink>
           </motion.div>
         </div>
