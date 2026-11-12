@@ -5,7 +5,7 @@ import Hero from "@/components/home/hero";
 import LatestArticles from "@/components/home/latest-articles";
 import LatestProperties from "@/components/home/latest-properties";
 import PropertyTypes from "@/components/home/property-types";
-import ServiceArea from "@/components/home/service-area";
+// import ServiceArea from "@/components/home/service-area";
 import PageMeta from "@/components/page-meta";
 import { site } from "@/data/site";
 import { organizationLd, websiteLd } from "@/lib/structured-data";
